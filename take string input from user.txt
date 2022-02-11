@@ -1,0 +1,18 @@
+
+package com.prk;
+
+import java.util.Scanner;
+
+public class Test2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your first_name:");
+        String first_name = sc.next();
+        System.out.println("Enter Your second_name:");
+        String second_name = sc.next();
+        System.out.println("Enter Your college name :");
+        String college_name = sc.next();
+        
+        System.out.println("Your name is "+first_name+" "+second_name+" and your college name is "+college_name);
+    }
+}
